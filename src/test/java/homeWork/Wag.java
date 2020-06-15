@@ -32,15 +32,12 @@ public class Wag extends BaseTest{
 
         WebElement lastName = driver.findElement(By.cssSelector("input[name=\"lastName\"]"));
 
-        lastName.sendKeys("Entsova");
+        lastName.sendKeys("Ivanova");
 
         WebElement phone = driver.findElement(By.cssSelector("input[name=\"phone\"]"));
 
         phone.sendKeys("3045867394");
 
-
-
-
-
+        driver.quit();
     }
 }
